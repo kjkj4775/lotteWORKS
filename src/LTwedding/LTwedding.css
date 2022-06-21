@@ -1,0 +1,88 @@
+.wedding{
+    top: 0;
+    position: relative;
+    overflow: hidden;
+    width: 1200px;
+    height: 433px;
+    margin: 235px auto 0 auto ;
+    padding: 0;
+}
+
+.background{
+    position: relative;
+    width: 100%;
+    z-index: -10000000;
+}
+
+.background img{
+    position: relative;
+    width: 100%;
+    z-index: -10000000;
+}
+.lab_lotte{ 
+    margin-top: 12px;
+    width: 100%;
+}
+
+.lab_lotte a{
+    text-decoration: none;
+    font-size: 34px;
+    color: #252525;
+    font-weight: 500;
+}
+
+.text_box{
+    display: flex;
+    margin-left: 0px;;
+}
+
+.lab_lifestyle{
+    margin-top: 15px;
+}
+
+.lab_lifestyle a{
+    font-size: 18px;
+    color: #9c9c9c;
+    font-weight: 1000;
+    text-decoration: none;
+}
+
+
+.wedding_button{
+    margin-top: 13px;
+    position: absolute;
+    top: 180px;
+    left: 50px;
+}
+
+.wedding_button button{
+    padding: 6px 36px;
+    font-size: 13px;
+    border: 1px solid #c1c3c5;
+    color: #c1c3c5;
+    background-color: #ffffff;
+}
+
+.text {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.ani{
+    transform: translateY(0);
+}
+.ani.animate{
+    animation: lab1 2s;
+}
+
+@keyframes lab1 {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to {
+        opacity: 100%;
+        transform: translateY(0px);
+    }
+}

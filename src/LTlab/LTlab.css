@@ -1,0 +1,10 @@
+.lab_section{
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    overflow: hidden;
+    width: 1200px;
+    height: 431px;
+    margin: 235px auto 0 auto ;
+    padding: 0;
+}

@@ -1,0 +1,135 @@
+.magazine{
+    display: relative;
+    justify-content: space-between;
+    top: 0;
+    position: relative;
+    overflow: hidden;
+    width: 1200px;
+    height: 660px;
+    margin: 234px auto 0 auto ;
+    padding: 0;
+}
+
+.section1{
+    display: flex;
+    height: auto;
+}
+
+.section2{
+    display: flex; 
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    margin-top: 18px;
+}
+
+.section1 .lab_lotte{ 
+    margin-top: 12px;
+    width: 100%;
+}
+
+.section1 .lab_lotte a{
+    text-decoration: none;
+    font-size: 34px;
+    color: #252525;
+    font-weight: 1000;
+}
+
+.section1 .lab_lifestyle{
+    margin-top: 22px;
+}
+
+.section1 .lab_lifestyle a{
+    font-size: 18px;
+    color: #9c9c9c;
+    font-weight: 1000;
+    text-decoration: none;
+}
+
+.wedding_button{
+    margin-left: auto;
+    margin-top: auto;
+}
+
+.wedding_button button{
+    padding: 6px 36px;
+    font-size: 13px;
+    border: 1px solid #ababab;
+    color: #656565;
+    background-color: #fff;
+}
+
+.ani{
+    transform: translateY(0);
+}
+.ani.animate{
+    animation: lab1 2s;
+}
+
+@keyframes lab1 {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to {
+        opacity: 100%;
+        transform: translateY(0px);
+    }
+}
+
+.section2 img{
+    width: 289px;
+}
+
+.section2 .pic1{
+    height: 464px;
+    width: 289px;
+}
+
+.section2 .pic2{
+    height: 464px;
+    width: 289px;
+}
+
+.section2 .pic3{
+    height: 464px;
+    width: 289px;
+}
+
+.section2 .pic1 a{
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #000;
+}
+
+.section2 .pic2 a{
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #000;
+}
+
+.section2 .pic3 a{
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #000;
+}
+
+.section2 .word{
+    margin: 20px 0 10px 0;
+}
+
+.section2 button{
+    box-sizing: border-box;
+    width: 130px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 30px;
+    font-size: 13px;
+    border: 1px solid #ababab;
+    color: #000;
+    top: 10px;
+    background-color: #fff;
+}

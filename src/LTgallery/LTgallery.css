@@ -1,0 +1,87 @@
+.gallery{
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: space-between;
+    top: 0;
+    overflow: hidden;
+    width: 1200px;
+    height: 431px;
+    margin: 235px auto 0 auto ;
+    padding: 0;
+    
+}
+
+.GA_secton2{
+    /* width: 50%; */
+    height: auto;
+}
+
+.GA_secton1{
+    /* width: 50%; */
+    height: auto;
+}
+
+.GA_secton1 .lab_lotte{ 
+    margin-top: 40px;
+    width: 100%;
+}
+
+.GA_secton1 .lab_lotte a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #9c9c9c;
+    font-weight: 1000;
+}
+
+.GA_secton1 .lab_lifestyle{
+    margin-top: 5px;
+}
+
+.GA_secton1 .lab_lifestyle a{
+    font-size: 34px;
+    color: #252525;
+    font-weight: 1000;
+    text-decoration: none;
+}
+
+.GA_secton1 .lab_class{
+    margin-top: 16px;
+}
+
+.GA_secton1 .lab_class a{
+    font-size: 18px;
+    color: #9c9c9c;
+    letter-spacing: -1.2px;
+    font-weight: 1000;
+    text-decoration: none;
+}
+
+.GA_secton1 .munwha_button{
+    margin-top: 80px;
+}
+
+.GA_secton1 .munwha_button button{
+    padding: 6px 36px;
+    font-size: 13px;
+    border: 1px solid #ababab;
+    color: #656565;
+    background-color: #fff;
+}
+
+.ani{
+    transform: translateY(0);
+}
+.ani.animate{
+    animation: lab1 2s;
+}
+
+@keyframes lab1 {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to {
+        opacity: 100%;
+        transform: translateY(0px);
+    }
+}
